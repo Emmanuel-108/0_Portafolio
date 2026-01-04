@@ -1,3 +1,4 @@
+/* Navbar */
 .navbar-portafolio {
   justify-content: space-between;
   background: whitesmoke;
@@ -9,6 +10,7 @@
   flex-grow: 0;
 }
 
+/* Body */
 body {
   background-color: white;
 }
@@ -19,7 +21,124 @@ body {
   /* background-color: red; */
 }
 
+/* Bio */
 .section-header img {
-  height: 250px;
-  max-width: 100%;
+  height: 200px;
+  width: 200px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  object-position: center;
+}
+
+.section-bio {
+  margin-top: 25px;
+  margin-bottom: 25;
+  padding-right: 200px;
+  padding-left: 200px;
+  text-align: justify;
+}
+
+.bio-header{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* Section header */
+.section-top {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+/* Projects >> Cards */
+.projects-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.card-project {
+  overflow: hidden;
+  background: red;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.card-project img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 8%;
+}
+
+/* Projects >> Buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 25px;
+}
+
+.pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+
+  border: 1.5px solid #222;
+  background: #fff;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+
+  box-shadow: 0 4px 0 #222;
+  transition: all 0.15s ease;
+}
+
+.pill-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #222;
+}
+
+.pill-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #222;
+}
+
+.pill-btn--active {
+  background: #fff;
+}
+
+.pill-btn i {
+  font-size: 1rem;
+}
+
+/* Project >> About Subsection */
+.about-header {
+  text-align: left;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.about-desc {
+  text-align: left;
+}
+
+.section-skills {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }

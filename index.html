@@ -36,10 +36,10 @@
                 <a class="nav-link" href="#bio">Bio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
@@ -52,21 +52,89 @@
   </header>
 
   <body>
-    <div class="container pb-5 text-center sections">
+    <div class="container py-4 text-center sections">
       <div class="section-header" id="bio">
-        <img src="./images/bio-photo.jpg" alt="This is my photo.">
+        <img src="./images/bio-photo.jpg" alt="This is my photo." class="rounded-circle">
       </div>
       <div class="section-bio">
-        <p>
-          Hi! I’m Emanuel. I’m a Full-Stack Engineer with a background in Business Informatics and over 5 years of combined professional experience in Web Development, Quality Assurance Testing, and Business Intelligence 🚀
-          <br>In my professional roles, I have developed Websites, created Dashboards for Data Analytics, managed Databases, and carried out Quality Assurance Testing projects.
-          Looking forward to connecting and collaborating on exciting projects 😎
-        </p>
+        <p class="bio-header">Hi! I’m Emanuel 👋</p>
+        <p>I’m a Full-Stack Engineer with a background in Business Informatics and over 5 years of combined professional experience in Web Development, Quality Assurance Testing, and Business Intelligence 🚀</p>
+        <p>In my professional roles, I have developed Websites, created Dashboards for Data Analytics, managed Databases, and carried out Quality Assurance Testing projects.</p>
+        <p>Looking forward to connecting and collaborating on exciting projects 😎</p>
+      </div>
+      <div class="section-projects" id="projects">
+        <p class="section-top">Projects</p>
+        <!-- Project # 1 -->
+        <div class="project-body">
+          <h1>X-Goal Achiever</h1>
+          <div class="button-group">
+            <a href="https://github.com/Emmanuel-108/x_goal_achiever" target="_blank" class="pill-btn">
+              <i class="fa-brands fa-github fa-beat"></i>
+              <span>View code</span>
+            </a>
+            <a href="https://x-goal-achiever-6a0c2ba3b007.herokuapp.com/" target="_blank" class="pill-btn pill-btn--active">
+              <i class="fa-solid fa-arrow-up-right-from-square fa-shake"></i>
+              <span>View project</span>
+            </a>
+          </div>
+          <div class="projects-cards">
+            <div class="card-project">
+              <img src="./images/XBoard-main.png" alt="X-Goal project main photo.">
+            </div>
+            <div class="card-project">
+              <img src="./images/XGoal-dashboard.png" alt="X-Goal project dashboard photo.">
+            </div>
+            <div class="card-project">
+              <img src="./images/XBoard-tutorial.png" alt="X-Goal project tutorial photo.">
+            </div>
+          </div>
+          <div class="about-section justify-content-left my-4">
+            <p class="about-header">About</p>
+            <p class="about-desc">
+              • ADHD web application for users experiencing constant distractions and a lack of focus.<br>
+              • Designed and tested task distribution logic using automated test cases.<br>
+              • Implemented dashboards with graphics, metrics, and task trackers to analyze user performance.<br>
+              • Further features: APIs, Device Authentication, Database Polymorphism, Active Storage, and Date Search functions.
+            </p>
+          </div>
+        </div>
+        <!-- Project # 2 -->
+        <div class="project-body">
+          <h1>GameVault</h1>
+          <div class="button-group">
+            <a href="https://github.com/Emmanuel-108/videogames_rentings" target="_blank" class="pill-btn">
+              <i class="fa-brands fa-github fa-beat"></i>
+              <span>View code</span>
+            </a>
+            <a href="https://videogames-rentings-d9ff92d67fba.herokuapp.com/" target="_blank" class="pill-btn pill-btn--active">
+              <i class="fa-solid fa-arrow-up-right-from-square fa-shake"></i>
+              <span>View project</span>
+            </a>
+          </div>
+          <div class="projects-cards">
+            <div class="card-project">
+              <img src="./images/GameVault-main.png" alt="Gamming project main photo.">
+            </div>
+            <div class="card-project">
+              <img src="./images/GameVault-Renting.png" alt="Gamming project rentings photo.">
+            </div>
+            <div class="card-project">
+              <img src="./images/GameVault-Booking.png" alt="Gamming project bookings photo.">
+            </div>
+          </div>
+          <div class="about-section justify-content-left my-4">
+            <p class="about-header">About</p>
+            <p class="about-desc">
+              • Web portal that supports online video game booking and listing.<br>
+              • Rent a video game.<br>
+              • List a video game.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="section-skills" id="skills">
-        <h1>Under construction...</h1>
+        <h1>Coming soon...</h1>
       </div>
-      <div class="section-projects" id="projects"></div>
       <div class="contact" id="contact"></div>
     </div>
 
