@@ -18,7 +18,6 @@ body {
 .sections {
   padding-left: 150px;
   padding-right: 150px;
-  /* background-color: red; */
 }
 
 /* Bio */
@@ -222,3 +221,39 @@ body {
 .card-skills .resume {
   margin-top: 25px;
 }
+
+/* Contact Section */
+.contact {
+  margin-top: 0px;
+  margin-bottom: 150;
+  padding-right: 200px;
+  padding-left: 200px;
+
+  text-align: center;
+}
+
+.contact-info {
+  display: inline-grid;
+  grid-template-columns: 32px auto;
+  row-gap: 0.75rem;
+  column-gap: 0.75rem;
+  align-items: center;
+}
+
+.contact-info span {
+  text-align: left;
+}
+
+.contact-row {
+  display: contents;
+  font-size: large;
+}
+
+.contact-info i {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.message {
+  margin-top: 25px;
+ }
