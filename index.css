@@ -62,7 +62,7 @@ body {
 
 .card-project {
   overflow: hidden;
-  background: red;
+  background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   height: 200px;
   width: 100%;
@@ -141,4 +141,74 @@ body {
 .section-skills {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+/* Skills section */
+.skill-name {
+  font-size: large;
+  font-weight: bold;
+}
+
+.skills-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.cards-skills-sub {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+/* Skills >> Buttons */
+.button-group-s {
+  gap: 1rem;
+  padding: 2px;
+}
+
+.pill-btn-s {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 0.50rem 1rem;
+  border-radius: 999px;
+
+  border: 2px solid #222;
+  background: #fff;
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+
+  /* box-shadow: 0 4px 0 #222; */
+  transition: all 0.15s ease;
+}
+
+.pill-btn-s:hover {
+  transform: translateY(-2px);
+  /* box-shadow: 0 6px 0 #222; */
+}
+
+.pill-btn-s:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #222;
+}
+
+.pill-btn-s--active {
+  background: #fff;
+}
+
+.pill-btn-s i {
+  font-size: 1rem;
 }
