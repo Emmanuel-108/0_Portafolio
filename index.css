@@ -212,3 +212,13 @@ body {
 .pill-btn-s i {
   font-size: 1rem;
 }
+
+/* Certificate */
+.card-skills .certificate {
+  width: 100%;
+}
+
+/* Resume */
+.card-skills .resume {
+  margin-top: 25px;
+}
