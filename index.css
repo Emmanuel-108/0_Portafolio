@@ -256,4 +256,55 @@ body {
 
 .message {
   margin-top: 25px;
+  margin-bottom: 25px;
  }
+
+ /* Footer */
+.footer-portafolio {
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding-left: 285px;
+  padding-right: 285px;
+  /* padding: 0px 50px; */
+  color: black
+}
+
+.footer-portafolio .footer-links {
+  flex-grow: 0;
+}
+
+/* Force the left and right sections to take up equal space */
+.footer-copyright,
+.footer-anchor {
+  flex: 1;
+}
+
+/* Keep text on the left */
+.footer-copyright {
+  text-align: left;
+}
+
+/* Keep the icon on the right */
+.footer-anchor {
+  text-align: right;
+}
+
+/* The middle section stays in the center */
+.footer-links {
+  flex-grow: 0;
+  white-space: nowrap; /* Prevents icons from stacking */
+}
+
+.footer-links a {
+  color: black;
+  opacity: 1;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 0.50;
+}
