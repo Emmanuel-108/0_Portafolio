@@ -5,5 +5,9 @@
   "type": "module",
   "scripts": {
     "test:unit": "vitest"
+  },
+  "devDependencies": {
+    "jsdom": "^27.0.1",
+    "vitest": "^4.0.17"
   }
 }
