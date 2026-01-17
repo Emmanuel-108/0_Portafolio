@@ -17,7 +17,7 @@ pipeline {
 
         stage('Front-End Unit Tests') {
           steps {
-            sh 'cd portafolio-front && npm i && npm run test:unit'
+            sh 'cd portafolio-testing && npm i && npm run test:unit'
           }
         }
 
